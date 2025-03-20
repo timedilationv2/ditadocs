@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Main Documentation</title>
+  <!-- Using Awesome DITA Theme from ../themes/awesome-theme.css -->
+  <topicref href="introduction.dita"/>
+</map><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Main Documentation</title>
+  <topicref href="introduction.dita"/>
+  <!-- You can add more <topicref> elements for additional topics -->
+</map>

@@ -1,0 +1,15 @@
+/* Awesome DITA Theme CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #007acc;
+}
+
+p {
+    line-height: 1.6;
+}

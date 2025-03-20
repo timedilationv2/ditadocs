@@ -1,0 +1,20 @@
+DITA Docs for Automation & CI/CD
+=================================
+
+Overview:
+This repository is designed to automate the build and deployment of DITA-based documentation using CI/CD. It leverages the DITA Open Toolkit (DITA-OT) to transform your DITA XML files into various output formats like HTML and PDF.
+
+Features:
+- Automatic build process using GitHub Actions.
+- Simple, modular DITA content.
+- Custom “Awesome DITA Theme” for a polished look.
+
+How to Build:
+1. Ensure DITA-OT is installed.
+2. Run the build script:
+   ./build.sh
+3. Check the output in the 'output' folder.
+
+For more details, please refer to the DITA map (docs/main.ditamap) and topic files (docs/introduction.dita).
+
+Enjoy your awesome documentation!
