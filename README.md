@@ -10,7 +10,8 @@ This project showcases how to use DITA XML to structure and publish high-quality
 
 | Folder/File           | Purpose                                      |
 |-----------------------|----------------------------------------------|
-| `docs/sample/`        | Contains DITA topics and maps (move to `dita/`) |
+| `maps/`               | Contains `guide.ditamap`, the master map     |
+| `dita/topics/`        | Reusable topic files in DITA format          |
 | `output/`             | Generated HTML or PDF output                |
 | `build.sh`            | Shell script to build docs using DITA-OT    |
 | `.github/workflows/`  | GitHub Actions for automated builds         |
@@ -25,14 +26,13 @@ This project showcases how to use DITA XML to structure and publish high-quality
 ### Build HTML:
 
 ```bash
-cd ~/dita-ot
-bin/dita -i ../path-to/ditadocs/docs/sample/your.ditamap -f html5 -o ../path-to/ditadocs/output/html
+bin/dita -i maps/guide.ditamap -f html5 -o output/html
 ```
 
 ### Build PDF:
 
 ```bash
-bin/dita -i ../path-to/ditadocs/docs/sample/your.ditamap -f pdf -o ../path-to/ditadocs/output/pdf
+bin/dita -i maps/guide.ditamap -f pdf -o output/pdf
 ```
 
 ## 🧠 Why Use DITA?
