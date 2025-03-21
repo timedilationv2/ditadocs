@@ -13,7 +13,7 @@
 
  [**Documentation Wiki**](https://github.com/timedilationv2/ditadocs/wiki)  
  [**NPM Package**](https://github.com/timedilationv2/ditadocs/pkgs/npm/ditadocs-weather)  
-🛠️ [**CI/CD Pipeline**](https://github.com/timedilationv2/ditadocs/actions)  
+ [**CI/CD Pipeline**](https://github.com/timedilationv2/ditadocs/actions)  
  [**Sample DITA Files**](docs/sample)
 
 ---
