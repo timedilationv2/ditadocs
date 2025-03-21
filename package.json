@@ -1,12 +1,21 @@
 {
   "name": "@timedilationv2/ditadocs-weather",
   "version": "0.1.0",
+<<<<<<< HEAD
   "description": "A simple npm package for fetching weather data.",
   "main": "index.js",
+=======
+  "description": "A package to fetch weather data from the OpenWeatherMap API.",
+  "main": "lib/weather.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+>>>>>>> 9c7c4c0 (Setup DITA folder structure)
   "repository": {
     "type": "git",
     "url": "https://github.com/timedilationv2/ditadocs.git"
   },
+<<<<<<< HEAD
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -14,5 +23,17 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^1.8.4"
+=======
+  "keywords": [
+    "weather",
+    "openweathermap",
+    "api",
+    "ditadocs"
+  ],
+  "author": "Arsalan Khan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"
+>>>>>>> 9c7c4c0 (Setup DITA folder structure)
   }
 }
