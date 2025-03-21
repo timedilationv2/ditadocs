@@ -70,4 +70,4 @@ MIT License
 
 ---
 
-> Created by [Arsalan Khan](https://github.com/timedilationv2) — showcase your mastery of structured writing and technical communication.
+> Created by [Arsalan Khan](https://github.com/timedilationv2) - Washington 2025
