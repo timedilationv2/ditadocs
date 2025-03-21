@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="install">
+  <title>Installation Guide</title>
+  <body>
+    <p>To install the system, follow these steps:</p>
+    <ol>
+      <li>Download the installation package from the official site.</li>
+      <li>Extract the contents to your preferred directory.</li>
+      <li>Run the setup script appropriate for your OS.</li>
+      <li>Verify installation using the verification tool.</li>
+    </ol>
+  </body>
+</topic>

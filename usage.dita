@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="usage">
+  <title>Usage Instructions</title>
+  <body>
+    <p>After installation, use the system as follows:</p>
+    <ul>
+      <li>Launch the main application interface.</li>
+      <li>Configure your settings under the preferences menu.</li>
+      <li>Use the toolbar or CLI to execute key operations.</li>
+      <li>Refer to logs in the build directory for diagnostics.</li>
+    </ul>
+  </body>
+</topic>

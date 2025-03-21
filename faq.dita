@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq">
+  <title>Frequently Asked Questions</title>
+  <body>
+    <dl>
+      <dt>What platforms are supported?</dt>
+      <dd>Windows, macOS, and most major Linux distributions.</dd>
+      
+      <dt>Where are the logs stored?</dt>
+      <dd>In the <code>build/logs/</code> directory.</dd>
+
+      <dt>Is this tool open-source?</dt>
+      <dd>Yes. It is licensed under MIT.</dd>
+    </dl>
+  </body>
+</topic>

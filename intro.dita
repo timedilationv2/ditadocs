@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="intro">
+  <title>Introduction</title>
+  <body>
+    <p>This documentation provides a structured and modular approach using DITA XML. It is designed to help users understand, install, and operate the system with clarity and efficiency.</p>
+  </body>
+</topic>

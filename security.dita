@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="security">
+  <title>Security Best Practices</title>
+  <body>
+    <p>Follow these practices to ensure the security of the system:</p>
+    <ul>
+      <li>Keep your software up-to-date with the latest patches.</li>
+      <li>Use secure passwords and enable 2FA where applicable.</li>
+      <li>Limit access permissions to trusted users only.</li>
+      <li>Regularly back up configurations and logs.</li>
+    </ul>
+  </body>
+</topic>
