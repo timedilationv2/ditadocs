@@ -1,91 +1,98 @@
 # DITA Docs for Automation & CI/CD
 
 [![Build Status](https://github.com/timedilationv2/ditadocs/actions/workflows/build.yml/badge.svg)](https://github.com/timedilationv2/ditadocs/actions)
-[![GitHub license](https://img.shields.io/github/license/timedilationv2/ditadocs)](LICENSE)
-[![View Wiki](https://img.shields.io/badge/wiki-docs-blue)](https://github.com/timedilationv2/ditadocs/wiki)
+[![License](https://img.shields.io/github/license/timedilationv2/ditadocs)](LICENSE)
+[![NPM Package](https://img.shields.io/npm/v/@timedilationv2/ditadocs-weather)](https://github.com/timedilationv2/ditadocs/pkgs/npm/ditadocs-weather)
+[![GitHub Pages](https://img.shields.io/badge/docs-online-blue)](https://timedilationv2.github.io/ditadocs)
 
-🚀 **Streamlined DITA documentation system with automation, CI/CD pipelines, and GitHub Pages deployment.**
-
----
-
-## 🧭 Quick Navigation
-
-- 🧾 [Documentation Wiki](https://github.com/timedilationv2/ditadocs/wiki)
-- 📦 [Published NPM Package](https://github.com/timedilationv2/ditadocs/pkgs/npm/ditadocs-weather)
-- 🛠️ [CI/CD Pipeline](https://github.com/timedilationv2/ditadocs/actions)
-- 🧪 [Sample DITA Files](docs/sample)
+**A streamlined system for managing DITA-based documentation with automation, CI/CD, and GitHub Pages deployment.**
 
 ---
 
-## 📦 Project Highlights
+##  Quick Access
 
-| Feature                     | Description                                                                              |
-|-----------------------------|------------------------------------------------------------------------------------------|
-| 🧱 Modular Architecture     | DITA files are split into maps, topics, tasks, references for reusability and clarity. |
-| ⚙️ CI/CD Automation        | GitHub Actions pipeline builds and deploys DITA-based docs automatically.              |
-| 🌐 GitHub Pages Ready       | Outputs can be deployed to static web pages using Jekyll and Pages.                     |
-| 📚 Hybrid Documentation     | Markdown and DITA coexist to support multiple doc types.                                |
+ [**Documentation Wiki**](https://github.com/timedilationv2/ditadocs/wiki)  
+ [**NPM Package**](https://github.com/timedilationv2/ditadocs/pkgs/npm/ditadocs-weather)  
+🛠️ [**CI/CD Pipeline**](https://github.com/timedilationv2/ditadocs/actions)  
+ [**Sample DITA Files**](docs/sample)
 
 ---
 
-## 📂 Repo Structure
+##  Architecture Overview
+
+![DITA Docs Architecture](https://raw.githubusercontent.com/timedilationv2/ditadocs/main/docs/architecture.png)
+
+This project converts **DITA XML** into multiple formats, automating documentation workflows.
+
+---
+
+##  Repository Structure
 
 ```
 ditadocs/
 ├── docs/                  # DITA XML source files (topics, maps, keys)
-│   └── sample/            # Sample concept, task, reference, and map files
-├── packages/              # NPM-ready submodules
-├── output/                # Output folder for built HTML or PDF
-├── .github/workflows/     # GitHub Actions CI/CD workflows
-├── build.sh               # Script to automate DITA build
+│   └── sample/            # Sample DITA concepts, tasks, and references
+├── packages/              # NPM-ready modules
+├── output/                # Built HTML/PDF from DITA
+├── .github/workflows/     # GitHub Actions CI/CD
+├── build.sh               # Script to automate DITA-OT build
 ├── index.md               # Jekyll landing page
 ```
 
 ---
 
-## 🧪 Local Development
+##  Setup & Usage
 
-1. 🔧 **Install DITA-OT**
-   [https://www.dita-ot.org/download](https://www.dita-ot.org/download)
+###  1. Install DITA-OT
+[Download DITA-OT](https://www.dita-ot.org/download)
 
-2. ▶️ **Build with Script**
-
+### ▶ 2. Build Documentation
 ```bash
 chmod +x build.sh
 ./build.sh
 ```
 
-3. 📁 **Check the `output/` folder for results**
+<details>
+  <summary> Expand for Manual Build Instructions</summary>
+
+```bash
+dita --input=docs/sample/sample-map.ditamap --format=html5
+```
+
+</details>
+
+### 3. View Output
+Once built, open `output/index.html` in a browser.
 
 ---
 
-## 📦 NPM Integration
+## NPM Package Integration
 
-We’ve also integrated a simple NPM package for weather-based API examples.
+DITA Docs also includes a simple **NPM package** for API-based documentation.
 
 ```bash
 npm install @timedilationv2/ditadocs-weather
 ```
 
-View: [NPM Package](https://github.com/timedilationv2/ditadocs/pkgs/npm/ditadocs-weather)
+**[View on GitHub Packages](https://github.com/timedilationv2/ditadocs/pkgs/npm/ditadocs-weather)**
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
-💡 Fork the repo  
-🧪 Create a feature branch  
-✅ Test your changes  
-📤 Open a pull request
+1. **Fork the repo**  
+2. **Create a feature branch**  
+3. **Test changes locally**  
+4. **Open a pull request**  
 
-Docs: [How to Contribute](https://github.com/timedilationv2/ditadocs/wiki/Contributing)
+ [Contribution Guide](https://github.com/timedilationv2/ditadocs/wiki/Contributing)
 
 ---
 
-## 📬 Contact
+##  Contact
 
-- 📧 Email: [texscrub@gmail.com](mailto:texscrub@gmail.com)
-- 🌐 LinkedIn: [aekaywrites](https://www.linkedin.com/in/aekaywrites/)
+**Email**: [texscrub@gmail.com](mailto:texscrub@gmail.com)  
+ **LinkedIn**: [aekaywrites](https://www.linkedin.com/in/aekaywrites/)
 
 ---
 
