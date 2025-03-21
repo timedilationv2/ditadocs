@@ -1,99 +1,73 @@
-# DITA Docs for Automation & CI/CD
+# DITADocs: Modular Technical Documentation with DITA XML
 
-[![Build Status](https://github.com/timedilationv2/ditadocs/actions/workflows/build.yml/badge.svg)](https://github.com/timedilationv2/ditadocs/actions)
-[![License](https://img.shields.io/github/license/timedilationv2/ditadocs)](LICENSE)
-[![NPM Package](https://img.shields.io/npm/v/@timedilationv2/ditadocs-weather)](https://github.com/timedilationv2/ditadocs/pkgs/npm/ditadocs-weather)
-[![GitHub Pages](https://img.shields.io/badge/docs-online-blue)](https://timedilationv2.github.io/ditadocs)
+> A professional documentation project using **DITA XML** for structured authoring, topic reuse, and modular publishing. 
 
-**A streamlined system for managing DITA-based documentation with automation, CI/CD, and GitHub Pages deployment.**
+## 📘 Overview
 
----
+This project demonstrates a real-world DITA-based documentation system, including:
 
-##  Quick Access
+- Modular topics (`.dita` files)
+- A structured map (`.ditamap`) for navigation and publishing
+- Output-ready structure for PDF/HTML using DITA-OT
+- Clean separation of content, logic, and assets
 
- [**Documentation Wiki**](https://github.com/timedilationv2/ditadocs/wiki)  
- [**NPM Package**](https://github.com/timedilationv2/ditadocs/pkgs/npm/ditadocs-weather)  
- [**CI/CD Pipeline**](https://github.com/timedilationv2/ditadocs/actions)  
- [**Sample DITA Files**](docs/sample)
+## 📂 Repository Structure
 
----
+| Path | Description |
+|------|-------------|
+| `dita/topics/` | Modular `.dita` files (intro, install, usage, etc.) |
+| `dita/maps/` | Main `guide.ditamap` file (entry point) |
+| `dita/images/` | Screenshots, diagrams, and visual assets |
+| `build/` | Output folder for HTML or PDF builds |
+| `tools/` | (Optional) DITA Open Toolkit setup |
 
-##  Architecture Overview
+## 📄 Key DITA Topics (in `dita/topics/`)
 
-![DITA Docs Architecture](https://raw.githubusercontent.com/timedilationv2/ditadocs/main/docs/architecture.png)
+- `intro.dita` → What the guide is about
+- `install.dita` → Installation steps
+- `usage.dita` → How to use the system or tool
+- `faq.dita` → Frequently asked questions
+- `security.dita` → Security best practices
 
-This project converts **DITA XML** into multiple formats, automating documentation workflows.
+## 🧩 Features
 
----
+- **DITA Compliant**: Uses valid `.dita` and `.ditamap` structures
+- **Reusable Components**: Each topic is standalone and reusable
+- **Build-Ready**: Compatible with [DITA-OT](https://www.dita-ot.org/) for HTML/PDF output
+- **Professional Format**: Mirrors enterprise documentation standards
 
-##  Repository Structure
+## 🛠️ How to Build (Optional)
 
-```
-ditadocs/
-├── docs/                  # DITA XML source files (topics, maps, keys)
-│   └── sample/            # Sample DITA concepts, tasks, and references
-├── packages/              # NPM-ready modules
-├── output/                # Built HTML/PDF from DITA
-├── .github/workflows/     # GitHub Actions CI/CD
-├── build.sh               # Script to automate DITA-OT build
-├── index.md               # Jekyll landing page
-```
-
----
-
-##  Setup & Usage
-
-###  1. Install DITA-OT
-[Download DITA-OT](https://www.dita-ot.org/download)
-
-### ▶ 2. Build Documentation
-```bash
-chmod +x build.sh
-./build.sh
-```
-
-<details>
-  <summary> Expand for Manual Build Instructions</summary>
+To render the docs using DITA Open Toolkit:
 
 ```bash
-dita --input=docs/sample/sample-map.ditamap --format=html5
+# Navigate to tools/dita-ot if bundled
+cd tools/dita-ot
+
+# Generate HTML from guide.ditamap
+bin/dita -i ../../dita/maps/guide.ditamap -f html5 -o ../../build/html
 ```
 
-</details>
-
-### 3. View Output
-Once built, open `output/index.html` in a browser.
-
----
-
-## NPM Package Integration
-
-DITA Docs also includes a simple **NPM package** for API-based documentation.
+You can also generate PDF using:
 
 ```bash
-npm install @timedilationv2/ditadocs-weather
+bin/dita -i ../../dita/maps/guide.ditamap -f pdf -o ../../build/pdf
 ```
 
-**[View on GitHub Packages](https://github.com/timedilationv2/ditadocs/pkgs/npm/ditadocs-weather)**
+> If not bundled, install DITA-OT manually from [dita-ot.org](https://www.dita-ot.org/download)
+
+## 🧠 Why This Matters
+
+DITA is used in aerospace, healthcare, and enterprise SaaS documentation. This project showcases your ability to:
+
+- Work with structured XML
+- Build scalable documentation systems
+- Separate logic and content like a pro
+
+## 📄 License
+
+MIT License
 
 ---
 
-##  Contributing
-
-1. **Fork the repo**  
-2. **Create a feature branch**  
-3. **Test changes locally**  
-4. **Open a pull request**  
-
- [Contribution Guide](https://github.com/timedilationv2/ditadocs/wiki/Contributing)
-
----
-
-##  Contact
-
-**Email**: [texscrub@gmail.com](mailto:texscrub@gmail.com)  
- **LinkedIn**: [aekaywrites](https://www.linkedin.com/in/aekaywrites/)
-
----
-
-© Arsalan Khan | Licensed under MIT
+> Created by [Arsalan Khan](https://github.com/timedilationv2) — showcase your mastery of structured writing and technical communication.
